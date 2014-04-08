@@ -1,0 +1,138 @@
+---
+layout: home
+---
+.container-fluid.well.text-center
+  .row
+    .center-block
+      %h2
+        = image_tag 'logo-big.png', alt: ''
+        Café Vie Privée
+        \#{image_tag 'logo-big.png', alt: ''}
+  .row
+    .col-md-5.col-md-offset-1
+      %h4
+        Parce que la NSA n'est pas le seul ennemi…
+        %br/
+        Mais vos parents ou votre petit·e ami·e aussi =)
+    .col-md-5
+      %h4
+        Parce qu'on a tous quelque chose à cacher…
+        %br/
+        Ne serait-ce que notre vie privée !
+  .row
+    .col-md-8.col-md-offset-2.alert.alert-success
+      %i> Prochains Cafés Vie Privée
+       :
+      %ul
+        %li
+          samedi
+          %b 29 mars
+          2014,
+          = succeed "," do
+            %b 15h-18h
+          à
+          %b
+            %a(href="http://events.numaparis.com/Evenements/Chiffro-fete-3.0")
+              Numa
+        %li
+          samedi
+          %b 12 avril
+          2014,
+          = succeed "," do
+            %b 14h-18h
+          au
+          %b
+            %a(href="/20140412-mokibar.html")
+              Moki Bar
+        %li
+          samedi
+          %b 20 avril
+          2014,
+          = succeed "," do
+            %b 11h-18h
+          à l'
+          %b
+            %a(href="http://openbidouille.net/post/80174131389/obc-4-le-20-avril-inscrivez-vos-ateliers")
+              Open Bidouille Camp #4
+        %li
+          jeudi
+          %b 24 avril
+          2014,
+          = succeed "," do
+            %b 11h-18h
+          au
+          %b
+            %a(href="http://2014.hackitoergosum.org/")
+              Hacker Space Fest
+.container-fluid.full-height
+  .row
+    .col-md-4.well
+      %h3 Le non-concept
+      %p
+        Venez passer un après-midi à causer et pratiquer la cryptographie !
+      %p
+        Des ateliers d'au minimum 1h sont proposés, axés autour de la sécurité informatique et de la
+        protection de la vie privée.
+        %br/
+        Les ateliers sont accessibles à tout type de public, geek et non-geek, chatons, poneys, loutres ou licornes.
+      %p
+        Amenez du glou et du miam si vous le voulez, on chiffre mieux le ventre plein !
+        Et n'hésitez pas à vous joindre aux non-nous autour d'un verre le soir :)
+    .col-md-4.well
+      %h3 Le non-contenu
+      %ul
+        %li Chiffrement des emails (GPG)
+        %li Chiffrement des données (TrueCrypt, LUKS)
+        %li Messagerie instantanée (OTR, SIP, ZRTP)
+        %li Communications mobiles (TextSecure, RedPhone)
+        %li Sécurité wifi
+        %li Anonymat sur Internet (Tails, Tor, deep web)
+        %li Protection de la vie privée (NoScript, RequestPolicy)
+        %li SSL/TLS, CACert
+        %li Boire du vrai thé
+        %li … et tant d'autres choses …
+      %p
+        Il n'y a pas de planning prévu à l'avance, les ateliers sont organisés en fonction des animateurs
+        présents… et de la demande des participants.
+        %br/
+        Si vous avez des envies ou des idées, aussi bien pour animer que pour participer, n'hésitez pas à
+        nous contacter !
+    .col-md-4.well
+      %h3 Les non-infos
+      %p
+        Les chiffrofêtes se déroulent généralement le samedi de 15h à 18h, à
+        %a(href="http://events.numaparis.com/")
+          = image_tag 'numa.png', alt: 'Numa'
+        (#oupa)
+      %p
+        Vous pouvez venir avec votre machine (portable ou mobile) pour assister aux atelier et si possible
+        avec une clef USB pour repartir avec plein de datalove ♥ dessus.
+      %div
+        Pour vous tenir informer :
+        %table
+          %tr
+            %td
+              = image_tag 'twitter.png', alt: 'twitter'
+              %a(href="https://twitter.com/chiffrofete") @chiffrofete
+            %td
+              = image_tag 'email.png', alt: 'Email'
+              %a(href="mailto:chiffrofetes@okhin.fr") chiffrofetes@okhin.fr
+              %br/
+              (GPG:
+              = succeed ")" do
+                %a(href="http://hkps.pool.sks-keyservers.net/pks/lookup?search=0xD0934505630B1D0A&op=vindex")
+                  D0934505 630B1D0A
+          %tr
+            %td
+              = image_tag 'ical.png', alt: 'Icône ical'
+              %a(href="https://calendar.okhin.fr/public.php/chiffrofetes/calendar/") Calendrier
+            %td
+              = image_tag 'logo.png', alt: 'Logo'
+              %a(href="https://www.cryptoparty.in/paris") https://www.cryptoparty.in/paris
+      %br/
+      %table
+        %tr
+          %td
+            = image_tag 'photo.png', alt: 'Photo'
+          %td
+            Avant de prendre des photos, merci de demander la permission à tous les pixels !
